@@ -5,6 +5,7 @@ pipeline {
         stage("Build") {
             steps {
                 echo 'building the applicattion..'
+                echo 'test webhook..'
             }
         }
         stage("Test") {
